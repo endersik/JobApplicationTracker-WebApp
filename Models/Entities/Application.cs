@@ -7,7 +7,7 @@ namespace JobApplicationTracker.Models.Entities
 {
     public class Application
     {
-        public Guid Id { get; set; }
+        public long Id { get; set; }
         public required string Company { get; set; }
         public string? Position { get; set; }
         public required DateOnly Deadline { get; set; }
